@@ -1,0 +1,105 @@
+/* colors and fonts*/
+body {
+	background-color: rgb(255, 240, 245);
+	color: rgb(0, 51, 102);
+	font-family: Lora;
+	font-size: 17px;
+}
+
+h1, h2 {
+	font-family: Lora;
+}
+
+h1 {
+	color: rgb(217, 24, 95);
+}
+
+h2 {
+	color: rgb(217, 24, 95);
+	font-size: 25px;
+}
+
+a {
+  color: rgb(0, 51, 102) ;
+  text-decoration: underline rgb(217, 24, 95);
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: rgb(0, 51, 102);
+  text-decoration: none;
+}
+
+/* custom design with class*/
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 400px;
+  }
+}
+
+.card-white {
+	background-color: rgb(255, 220, 231);
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align:center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: rgb(255, 240, 245) ;
+	color: rgb(0, 51, 102) ;
+	padding: 10px 15px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background: rgb(217, 24, 95);
+	color: rgb(0, 51, 102);
+
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline; 
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 30px;
+	color: rgb(0, 51, 102) ;
+}
+
+.list-inline i:hover {
+	color: rgb(217, 24, 95) ;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
